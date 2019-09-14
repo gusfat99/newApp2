@@ -15,5 +15,12 @@ export default StyleSheet.create({
         borderRadius: 5,
         paddingLeft: 10,
         width:"80%"
+    },
+    outputContainer : {
+        marginTop: 10,
+        padding : 10,
+        fontWeight: 'bold',
+        backgroundColor:'#ccc'
+
     }
 });

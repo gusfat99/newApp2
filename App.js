@@ -20,13 +20,12 @@ export default function App() {
         <TextInput placeholder="Goals" style={styles.input} onChangeText={goalsInputHandler} />
         <Button title="ADD" onPress={addGoalsHandler} />
       </View>
-      <View>
+    
         {courseGoals.map((courseGoal) => 
-            <View>
+          <View key={courseGoal} style={styles.outputContainer}>
               <Text>{courseGoal}</Text>
-            </View>
+          </View>
           )}
-      </View>
     </View>
   );
 }
