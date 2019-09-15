@@ -20,7 +20,7 @@ export default StyleSheet.create({
         marginTop: 10,
         padding : 10,
         fontWeight: 'bold',
-        backgroundColor:'#ccc'
+        backgroundColor:'gray'
 
     }
 });
