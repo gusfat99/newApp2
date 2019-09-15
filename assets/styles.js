@@ -20,7 +20,10 @@ export default StyleSheet.create({
         marginTop: 10,
         padding : 10,
         fontWeight: 'bold',
-        backgroundColor:'gray'
-
+        backgroundColor:'gray',
+        color:"white"
+    },
+    textList : {
+        color:'white'
     }
 });
