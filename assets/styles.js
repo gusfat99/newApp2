@@ -3,10 +3,13 @@ export default StyleSheet.create({
     container : {
         flex: 1,
         marginHorizontal: 20,
+        marginTop: 50,
     },
     inputContainer : {
-        flexDirection: 'row',
-        justifyContent:'space-between',
+        flex: 1,
+        flexDirection: 'column',
+        justifyContent:'center',
+        alignItems: 'center',
         marginTop: 50,
     },
     input : {
@@ -14,7 +17,8 @@ export default StyleSheet.create({
         borderWidth: 0.2,
         borderRadius: 5,
         paddingLeft: 10,
-        width:"80%"
+        width:"80%",
+        marginBottom: 20,
     },
     outputContainer : {
         marginTop: 10,
